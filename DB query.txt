@@ -1,0 +1,7 @@
+create database proyecto
+
+create table usuarios(
+usuario varchar (20) primary key,
+nombre varchar (100),
+clave varchar (15)
+)
