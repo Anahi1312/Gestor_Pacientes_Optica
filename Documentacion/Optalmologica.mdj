@@ -723,11 +723,11 @@
 												"$ref": "AAAAAAF6C7Bpqg1nDPE="
 											},
 											"font": "Arial;13;1",
-											"left": 551.5,
+											"left": 554,
 											"top": 187.5,
-											"width": 156,
+											"width": 168,
 											"height": 13,
-											"text": "Actualizar datos paciente"
+											"text": "Ingresar datos del paciente"
 										},
 										{
 											"_type": "LabelView",
@@ -754,9 +754,9 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 546.5,
+									"left": 549,
 									"top": 180.5,
-									"width": 166.76806640625,
+									"width": 178.33349609375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF6C7Bpqg1o0Q0="
@@ -846,7 +846,7 @@
 							"containerChangeable": true,
 							"left": 512,
 							"top": 176,
-							"width": 235,
+							"width": 252,
 							"height": 35,
 							"nameCompartment": {
 								"$ref": "AAAAAAF6C7Bpqg1nDPE="
@@ -890,8 +890,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 470,
-									"top": 144,
+									"left": 472,
+									"top": 143,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -911,8 +911,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 473,
-									"top": 129,
+									"left": 475,
+									"top": 128,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -932,8 +932,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 465,
-									"top": 173,
+									"left": 467,
+									"top": 172,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -954,7 +954,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 438,
-									"top": 138,
+									"top": 137,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -975,7 +975,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 442,
-									"top": 125,
+									"top": 124,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -1016,7 +1016,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 502,
+									"left": 507,
 									"top": 149,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -1036,7 +1036,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 502,
+									"left": 507,
 									"top": 136,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -1056,7 +1056,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 502,
+									"left": 507,
 									"top": 177,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -1102,7 +1102,7 @@
 								"$ref": "AAAAAAF6C67LLwu3reg="
 							},
 							"lineStyle": 1,
-							"points": "410:155;526:175",
+							"points": "410:154;531:175",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF6C7B4Yw2rSRw="
@@ -1255,7 +1255,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF6C66B2AuGhjY="
 					},
-					"name": "Actualizar datos paciente"
+					"name": "Ingresar datos del paciente"
 				}
 			]
 		},
@@ -1300,9 +1300,9 @@
 												"$ref": "AAAAAAF6C7PDNg5Xj0Q="
 											},
 											"font": "Arial;13;0",
-											"left": 75.97900390625,
+											"left": 71.58642578125,
 											"top": 10,
-											"width": 115.9052734375,
+											"width": 102.791015625,
 											"height": 13,
 											"text": "SequenceDiagram1"
 										},
@@ -1315,7 +1315,7 @@
 											"font": "Arial;13;1",
 											"left": 10,
 											"top": 10,
-											"width": 60.97900390625,
+											"width": 56.58642578125,
 											"height": 13,
 											"text": "interaction"
 										}
@@ -1447,7 +1447,7 @@
 											"top": 175,
 											"width": 185.65625,
 											"height": 13,
-											"text": "Ingreso de datos actualizados"
+											"text": "Ingreso de datos del paciente"
 										},
 										{
 											"_type": "LabelView",
@@ -1548,7 +1548,7 @@
 											"top": 367,
 											"width": 203.734375,
 											"height": 13,
-											"text": "Dato actualizados correctamente"
+											"text": "Dato ingresado correctamente"
 										},
 										{
 											"_type": "LabelView",
@@ -2143,7 +2143,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF6C7Qhrg50Xgk="
 					},
-					"name": "Ingreso de datos actualizados"
+					"name": "Ingreso de datos del paciente"
 				},
 				{
 					"_type": "UMLAction",
@@ -2151,7 +2151,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF6C7Qhrg50Xgk="
 					},
-					"name": "Dato actualizados correctamente"
+					"name": "Dato ingresado correctamente"
 				},
 				{
 					"_type": "UMLDecisionNode",
