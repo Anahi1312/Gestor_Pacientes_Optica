@@ -28,6 +28,11 @@ session_start();
 	<script type="text/javascript">
 		history.forward();
 		$(document).ready(function(){
+			$("#new").click(function(){
+				$("#contenido").empty();
+				$("#contenido").append('<iframe src="ingreso.php" frameborder="0" width="100%" height="500px"></iframe>');
+				$("#fondo").empty();
+			});
 			$("#logout").click(function(){
 				location.href="logout.php";
 			});
