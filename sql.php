@@ -14,5 +14,27 @@ if(isset($_POST['action'])&&$_POST['action']=='Login'){
 	}
 	echo $response;
 }
-
+if(isset($_POST['action'])&&$_POST['action']=='Nuevo'){
+	$cedula=$_POST['cedula'];
+	$nombre=$_POST['nombre'];
+	$direccion=$_POST['direccion'];
+	$telefono=$_POST['telefono'];
+	$existe=verificar_paciente($cedula);
+	if($existe=="0"){
+		$res=ingreso_paciente($cedula,$nombre,$direccion,$telefono);
+		if($res=="1"){
+			historia($cedula);
+			echo $res;
+		}
+		else{
+			echo $res;
+		}
+	}
+	else{
+		echo "existe";
+	}
+}
+function paciente($cedula){
+	return patient($cedula);
+}
 ?>
