@@ -4,6 +4,31 @@
 <link rel="stylesheet" type="text/css" href="libraries/css/bootstrap.min.css">
 <script type="text/javascript" src="libraries/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="libraries/jquery-3.5.0.js"></script>
+<script type="text/javascript">
+	var actualizar;
+	var consulta;
+	var historia;
+	   function actualizar_id(identify){
+	        actualizar(identify);
+	   }
+	   function consulta_id(identify){
+	        consulta(identify);
+	   }
+	   function historia_id(identify){
+	   		historia(identify);
+	   }
+	$(document).ready(function(){
+		actualizar=function(id){
+			location.href="actualizar.php?cedula="+id;
+		}
+		consulta=function(id){
+			location.href="consulta.php?cedula="+id;
+		}
+		historia=function(id){
+			location.href="medidas.php?cedula="+id;
+		}
+	});
+</script>
 <table align="center">
 	<tr>
 		<td width="150px"><b>Historia N°</b></td>
