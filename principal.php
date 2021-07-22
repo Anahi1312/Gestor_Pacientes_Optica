@@ -33,6 +33,14 @@ session_start();
 				$("#contenido").append('<iframe src="ingreso.php" frameborder="0" width="100%" height="500px"></iframe>');
 				$("#fondo").empty();
 			});
+			$("#buscar").click(function(){
+				$("#contenido").empty();
+				$("#contenido").append('<iframe src="buscar.php" frameborder="0" width="100%" height="500px"></iframe>');
+				$("#fondo").empty();
+			});
+			$("#inventario").click(function(){
+				location.href="inventario.php";
+			});
 			$("#logout").click(function(){
 				location.href="logout.php";
 			});
