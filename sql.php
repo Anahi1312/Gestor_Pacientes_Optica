@@ -34,7 +34,6 @@ if(isset($_POST['action'])&&$_POST['action']=='Nuevo'){
 		echo "existe";
 	}
 }
-
 if(isset($_POST['action'])&&$_POST['action']=='Actualizar'){
 	$cedula=$_POST['cedula'];
 	$nombre=$_POST['nombre'];
@@ -70,5 +69,4 @@ function medidas_paciente_historia($cedula){
 function datos_certificado($cedula){
 	return paciente_certificado($cedula);
 }
-
 ?>
