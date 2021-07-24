@@ -13,6 +13,14 @@ telefono varchar (10)
 )
 create table historias(
 numero int identity (1,1),
-cedula varchar (10) primary key,
-
+cedula varchar (10) primary key
+)
+create table medidas (
+cedula varchar (10),
+fecha date,
+ojoDer float,
+ejeDer float,
+ojoIzq float,
+ejeIzq float,
+observacion varchar (250)
 )

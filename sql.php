@@ -37,4 +37,7 @@ if(isset($_POST['action'])&&$_POST['action']=='Nuevo'){
 function paciente($cedula){
 	return patient($cedula);
 }
+function datos_paciente($cedula){
+	return history_paciente($cedula);
+}
 ?>
